@@ -27,6 +27,13 @@
   height: 15em;
   font-size: 15pt;
   margin-bottom: 1em;
+  padding: 1rem;
+}
+
+.quizz_questions > h1 {
+  font-size: 15pt;
+  display: flex;
+  text-align: center;
 }
 
 .quizz_options{
@@ -36,11 +43,13 @@
   margin: auto;
 }
 
+
 .btn-options {
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid white;
-  width: 50%;
+  width: 40%;
+  margin: 0 1rem;
   display: inline-block;
   cursor: pointer;
   color: white;
