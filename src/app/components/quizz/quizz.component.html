@@ -5,11 +5,11 @@
     <h1>{{ title }}</h1>
   </div>
 
-  <div class="quizz_questions">
-    <h1>{{ questionSelected.question }}</h1>
+  <div *ngIf= !finished class="quizz_questions">
+    <h1>{{ questionIndex + 1 }}/{{questionMaxIndex}} - {{ questionSelected.question }}</h1>
   </div>
 
-  <div class="quizz_options">
+  <div *ngIf= !finished class="quizz_options">
     <button
       *ngFor="let option of questionSelected.options; let i = index"
       (click)="playerChoose(option.alias)"
@@ -20,7 +20,7 @@
 
   <div *ngIf= finished class="quizz_results">
     <h1>O seu resultado é: </h1>
-    <p>Resposta</p>
+    <p>{{ answerSelected}}</p>
   </div>
 
 </div>

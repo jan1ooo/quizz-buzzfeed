@@ -11,7 +11,7 @@
     },
     {
       "id":2,
-      "question": "Pra você, o que é mais importante?",
+      "question": "Pra você, o que é mais importante ?",
       "options":[
         {"id": 1, "name":"Ser Poderoso", "alias":"A"},
         {"id": 2, "name":"Ser querido pelas pessoas", "alias":"B"}
@@ -19,7 +19,7 @@
     },
     {
       "id":3,
-      "question": "Você acredita que as pessoas são primariamente?",
+      "question": "Você acredita que as pessoas são primariamente ?",
       "options":[
         {"id": 1, "name":"De natureza boa com algumas tendências ruins", "alias":"A"},
         {"id": 2, "name":"De natureza ruim com algumas tendências boas", "alias":"A"},
@@ -31,7 +31,7 @@
     },
     {
       "id":4,
-      "question": "Você se considera uma pessoa?",
+      "question": "Você se considera uma pessoa ?",
       "options":[
         {"id": 1, "name":"Generosa", "alias":"C"},
         {"id": 2, "name":"Determinada", "alias":"B"},
@@ -57,7 +57,7 @@
     },
     {
       "id":6,
-      "question": "Você se importa com o que os outros vão falar ou pensar de você?",
+      "question": "Você se importa com o que os outros vão falar ou pensar de você ?",
       "options":[
         {"id": 1, "name":"Sim", "alias":"A"},
         {"id": 2, "name":"Não", "alias":"B"}
@@ -65,7 +65,7 @@
     },
     {
       "id":7,
-      "question": "Você mataria um amigo caso ele ameaçasse quem você ama?",
+      "question": "Você mataria um amigo caso ele ameaçasse quem você ama ?",
       "options":[
         {"id": 1, "name":"Sim", "alias":"A"},
         {"id": 2, "name":"Não", "alias":"B"}
@@ -73,23 +73,57 @@
     },
     {
       "id":8,
-      "question": "Você faria tudo para alcançar o que deseja?",
+      "question": "O que é mais importante ?",
       "options":[
-        {"id": 1, "name":"Sim", "alias":"A"},
-        {"id": 2, "name":"Não", "alias":"B"}
+        {"id": 1, "name":"O meu próprio bem estar", "alias":"C"},
+        {"id": 2, "name":"Amigos e familiares", "alias":"B"},
+        {"id": 3, "name":"Toda a riqueza que conquistei", "alias":"A"}
       ]
     },
     {
       "id":9,
-      "question": "Você é vingativo?",
+      "question": "Se você recebesse poderes, você usaria para ?",
       "options":[
-        {"id": 1, "name":"Sim", "alias":"A"},
-        {"id": 2, "name":"Não", "alias":"B"}
+        {"id": 1, "name":"Conseguir tudo aquilo que sempre quis", "alias":"C"},
+        {"id": 2, "name":"Ajudar todos aqueles que precisassem", "alias":"B"},
+        {"id": 3, "name":"Fazer aquilo que me desse vontade", "alias":"A"}
       ]
     },
     {
       "id":10,
-      "question": "Escolha um personagem? ",
+      "question": "Você faria tudo para alcançar o que deseja ?",
+      "options":[
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Não", "alias":"C"},
+        {"id": 3, "name":"Depende", "alias":"B"}
+      ]
+    },
+    {
+      "id":11,
+      "question": "Você é vingativo ?",
+      "options":[
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Não", "alias":"C"},
+        {"id": 3, "name":"Depende", "alias":"B"}
+      ]
+    },
+    {
+      "id":12,
+      "question": "Qual super poder escolheria ?",
+      "options":[
+        {"id": 1, "name":"Voar", "alias":"B"},
+        {"id": 2, "name":"Super Força", "alias":"A"},
+        {"id": 3, "name":"Super Velocidade", "alias":"B"},
+        {"id": 4, "name":"Invisibilidade", "alias":"A"},
+        {"id": 5, "name":"Super pulo", "alias":"C"},
+        {"id": 6, "name":"Respirar em baixo d'água", "alias":"B"},
+        {"id": 7, "name":"Falar com animais", "alias":"C"},
+        {"id": 8, "name":"Imortalidade", "alias":"A"}
+      ]
+    },
+    {
+      "id":13,
+      "question": "Escolha um personagem ?",
       "options":[
         {"id": 1, "name":"Loki", "alias":"A"},
         {"id": 2, "name":"Deadpool", "alias":"A"},
@@ -106,6 +140,6 @@
   "results":{
     "A": "Você seria um Anti-Herói",
     "B": "Você seria um herói",
-    "C": "Você seria um coadjuvante"
+    "C": "Você seria um Coadjuvante"
   }
 }
