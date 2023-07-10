@@ -1,0 +1,145 @@
+{
+  "title":"Você seria um Anti-Herói, Herói ou Coadjuvante ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Se você apertar este botão, as pessoas que você ama nunca mais terão problemas de saúde nem de dinheiro, mas alguém desconhecido vai morrer. O que você faz?",
+      "options":[
+        {"id": 1, "name":"Aperto", "alias":"A"},
+        {"id": 2, "name":"Não aperto", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Pra você, o que é mais importante ?",
+      "options":[
+        {"id": 1, "name":"Ser Poderoso", "alias":"A"},
+        {"id": 2, "name":"Ser querido pelas pessoas", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Você acredita que as pessoas são primariamente ?",
+      "options":[
+        {"id": 1, "name":"De natureza boa com algumas tendências ruins", "alias":"A"},
+        {"id": 2, "name":"De natureza ruim com algumas tendências boas", "alias":"A"},
+        {"id": 3, "name":"Nem ruins nem boas por natureza, é o ambiente que os torna assim", "alias":"B"},
+        {"id": 4, "name":"Nem ruins nem boas, apenas tentando serem felizes", "alias":"B"},
+        {"id": 5, "name":"Apenas egoístas", "alias":"C"},
+        {"id": 6, "name":"Eu não penso sobre as pessoas", "alias":"C"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Você se considera uma pessoa ?",
+      "options":[
+        {"id": 1, "name":"Generosa", "alias":"C"},
+        {"id": 2, "name":"Determinada", "alias":"B"},
+        {"id": 3, "name":"Vingativo", "alias":"A"},
+        {"id": 4, "name":"Amiga", "alias":"B"},
+        {"id": 5, "name":"Teimosa", "alias":"A"},
+        {"id": 6, "name":"Decidida", "alias":"B"},
+        {"id": 7, "name":"Confiante", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual o seu apelido de super ser ?",
+      "options":[
+        {"id": 1, "name":"O bicho fofo", "alias":"C"},
+        {"id": 2, "name":"O personagem sarcástico", "alias":"B"},
+        {"id": 3, "name":"O protagonista", "alias":"A"},
+        {"id": 4, "name":"A pessoa sábia", "alias":"B"},
+        {"id": 5, "name":"O vilão", "alias":"A"},
+        {"id": 6, "name":"O(a) melhor amigo(a) do protagonista", "alias":"C"},
+        {"id": 7, "name":"A pessoa que morre heroicamente", "alias":"B"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Você se importa com o que os outros vão falar ou pensar de você ?",
+      "options":[
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Não", "alias":"B"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Você mataria um amigo caso ele ameaçasse quem você ama ?",
+      "options":[
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Não", "alias":"B"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "O que é mais importante ?",
+      "options":[
+        {"id": 1, "name":"O meu próprio bem estar", "alias":"C"},
+        {"id": 2, "name":"Amigos e familiares", "alias":"B"},
+        {"id": 3, "name":"Toda a riqueza que conquistei", "alias":"A"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Se você recebesse poderes, você usaria para ?",
+      "options":[
+        {"id": 1, "name":"Conseguir tudo aquilo que sempre quis", "alias":"C"},
+        {"id": 2, "name":"Ajudar todos aqueles que precisassem", "alias":"B"},
+        {"id": 3, "name":"Fazer aquilo que me desse vontade", "alias":"A"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "Você faria tudo para alcançar o que deseja ?",
+      "options":[
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Não", "alias":"C"},
+        {"id": 3, "name":"Depende", "alias":"B"}
+      ]
+    },
+    {
+      "id":11,
+      "question": "Você é vingativo ?",
+      "options":[
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Não", "alias":"C"},
+        {"id": 3, "name":"Depende", "alias":"B"}
+      ]
+    },
+    {
+      "id":12,
+      "question": "Qual super poder escolheria ?",
+      "options":[
+        {"id": 1, "name":"Voar", "alias":"B"},
+        {"id": 2, "name":"Super Força", "alias":"A"},
+        {"id": 3, "name":"Super Velocidade", "alias":"B"},
+        {"id": 4, "name":"Invisibilidade", "alias":"A"},
+        {"id": 5, "name":"Super pulo", "alias":"C"},
+        {"id": 6, "name":"Respirar em baixo d'água", "alias":"B"},
+        {"id": 7, "name":"Falar com animais", "alias":"C"},
+        {"id": 8, "name":"Imortalidade", "alias":"A"}
+      ]
+    },
+    {
+      "id":13,
+      "question": "Escolha um personagem ?",
+      "options":[
+        {"id": 1, "name":"Loki", "alias":"A"},
+        {"id": 2, "name":"Deadpool", "alias":"A"},
+        {"id": 3, "name":"Batman", "alias":"B"},
+        {"id": 4, "name":"Homem aranha", "alias":"C"},
+        {"id": 5, "name":"Superman", "alias":"B"},
+        {"id": 6, "name":"Wanda", "alias":"B"},
+        {"id": 7, "name":"Thanos", "alias":"A"},
+        {"id": 8, "name":"Coringa", "alias":"C"},
+        {"id": 9, "name":"Pantera negra", "alias":"C"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você seria um Anti-Herói",
+    "B": "Você seria um Herói",
+    "C": "Você seria um Coadjuvante"
+  }
+}
